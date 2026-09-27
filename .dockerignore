@@ -6,7 +6,8 @@ Dockerfile
 README.md
 *.md
 *.log
-*.png
+# *.png  # disabled to keep logo.png in image
+!logo.png
 *.jpg
 *.jpeg
 *.gif
