@@ -26,10 +26,7 @@ USER appuser
 WORKDIR /app
 
 # Copy the production node_modules from the builder stage
-COPY --from=builder /app/node_modules ./node_modules
-
-# Copy the rest of the source code (excluding .dockerignore entries)
-COPY . .
+COPY --from=builder /app .
 
 # Railway (and most other platforms) injects a PORT env var.
 # Fallback to 8000 for local testing.
