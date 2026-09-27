@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>IGREK Management Portal</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <main>
+    <a class="admin-logo" href="../">
+      <img src="../logo.png" alt="IGREK Outsourcing — People. Performance. Growth." />
+    </a>
+
+    <!-- LOGIN SECTION -->
+    <section id="login">
+      <h1>Management Portal</h1>
+      <p>Sign in to manage website content and view job applications.</p>
+      <form id="login-form">
+        <input name="username" placeholder="Username" autocomplete="username" required />
+        <input name="password" type="password" placeholder="Password" autocomplete="current-password" required />
+        <button type="submit">Sign in</button>
+        <p id="error"></p>
+      </form>
+    </section>
+
+    <!-- ADMIN DASHBOARD SECTION -->
+    <section id="admin" hidden>
+      <header>
+        <div>
+          <p>ADMINISTRATION PORTAL</p>
+          <h1>Dashboard</h1>
+        </div>
+        <div class="header-actions">
+          <nav class="admin-tabs">
+            <button id="tab-content" class="tab-btn active" type="button">Website Content</button>
+            <button id="tab-applications" class="tab-btn" type="button">Job Applications <span id="app-badge" class="badge">0</span></button>
+          </nav>
+          <button id="logout" type="button">Log out</button>
+        </div>
+      </header>
+
+      <!-- CONTENT EDITOR TAB -->
+      <div id="content-tab-view">
+        <form id="editor">
+          <div id="sections"></div>
+          <div class="editor-buttons">
+            <button id="add-section" type="button">+ Add custom section</button>
+            <button type="submit" class="save-btn">Save all changes</button>
+          </div>
+          <p id="status"></p>
+        </form>
+        <p class="note">Changes are saved directly to the shared local server and synchronized across all devices.</p>
+      </div>
+
+      <!-- APPLICATIONS TAB -->
+      <div id="applications-tab-view" hidden>
+        <div class="applications-header">
+          <div>
+            <h2>Received Candidate Applications</h2>
+            <p>Review candidate details, contact info, and listen to voice introductions.</p>
+          </div>
+          <button id="refresh-apps" type="button">↻ Refresh applications</button>
+        </div>
+        <div id="applications-list">
+          <p class="empty-state">Loading applications...</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="admin-bootstrap.js"></script>
+</body>
+</html>

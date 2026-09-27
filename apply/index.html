@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Apply to work with IGREK Outsourcing." />
+  <title>Apply | IGREK OUTSOURCING</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="../" data-link="home" aria-label="IGREK Outsourcing home"><img src="../logo.png" alt="IGREK Outsourcing — People. Performance. Growth."></a>
+      <a class="nav-cta" href="../" data-link="home"><span aria-hidden="true">←</span> Back to home</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section container apply" id="apply">
+      <div class="apply-intro">
+        <p class="eyebrow"><span></span> Let’s make it happen</p>
+        <h1>Ready for better<br /><em>conversations?</em></h1>
+        <p>Tell us what you need. We’ll be in touch within one business day.</p>
+        <a href="mailto:hello@igrekoutsourcing.com">hello@igrekoutsourcing.com <span>↗</span></a>
+      </div>
+      <form class="contact-form glass-card" id="contact-form" action="#" method="post">
+        <label>Full Name<input name="name" type="text" autocomplete="name" placeholder="Your full name" required /></label>
+        <label>Email<input name="email" type="email" autocomplete="email" placeholder="you@company.com" required /></label>
+        <label>Phone Number<input name="phone" type="tel" autocomplete="tel" placeholder="+20 ..." required /></label>
+        <label>Vocaroo Link<input name="vocaroo" type="url" placeholder="https://vocaroo.com/..." required /></label>
+        <p class="field-help">Record your voice intro on <a href="https://vocaroo.com/" target="_blank" rel="noreferrer">Vocaroo</a>, then paste your link here.</p>
+        <fieldset>
+          <legend>Experience In Call Center</legend>
+          <div class="radio-options" data-experience-options>
+            <label><input type="radio" name="experience" value="No Experience" required />No Experience</label>
+            <label><input type="radio" name="experience" value="Less Than 1 Year" />Less Than 1 Year</label>
+            <label><input type="radio" name="experience" value="1-3 Years" />1-3 Years</label>
+            <label><input type="radio" name="experience" value="3-5 Years" />3-5 Years</label>
+          </div>
+        </fieldset>
+        <label>Last Position<input name="lastPosition" type="text" placeholder="Your last position" required /></label>
+        <button class="button button-primary" type="submit">Submit application <span>→</span></button>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer container"><a class="logo" href="../" data-link="home"><img src="../logo.png" alt="IGREK Outsourcing — People. Performance. Growth."></a><p class="footer-tagline" data-footer-tagline>People. Performance. Growth.</p><span>© <span id="year"></span> <span data-footer-copyright>IGREK Outsourcing</span></span></footer>
+  <script src="content-bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+{
+  "site": {
+    "footerTagline": "People. Performance. Growth.",
+    "copyright": "IGREK Outsourcing",
+    "links": {
+      "home": "/home/",
+      "apply": "/apply/"
+    }
+  },
+  "sections": [
+    {
+      "id": "about",
+      "title": "About Us",
+      "builtIn": true,
+      "paragraphs": [
+        {
+          "title": "",
+          "text": "IGREK Outsourcing is based in Egypt and built to serve clients around the world. We help businesses scale their operations without carrying the cost and overhead of building an in-house team from scratch."
+        },
+        {
+          "title": "",
+          "text": "We bring together skilled people, smart strategy, and real hands-on experience across customer support, sales, and lead generation. Inbound and outbound, all managed under one roof, so you're not juggling multiple vendors or losing time in translation between them."
+        },
+        {
+          "title": "",
+          "text": "What sets us apart is how we operate. We stay agile in a fast-paced world, adapting quickly to how your business actually works rather than forcing you into a rigid process. Whether you're looking to launch a new team, extend your coverage, or simply do more with less, we're built to move at your pace and grow alongside you."
+        }
+      ]
+    },
+    {
+      "id": "why-us",
+      "title": "WHY IGREK",
+      "builtIn": true,
+      "paragraphs": [
+        {
+          "title": "Talent, Not Just Agents",
+          "text": "We don't hire people who simply have language skills. Our HR team follows a rigorous, efficient hiring process to identify and qualify real talent professionals who are equipped to represent your brand, not just fill a seat. Every team we build is shaped around your specific needs, not a one-size-fits-all roster."
+        },
+        {
+          "title": "Operations Built Around You",
+          "text": "Because no two companies operate the same way, we don't believe they should be served the same way either. For every client, we design a dedicated operational structure tailored to how your business actually runs. From workflows to reporting, everything is customized to fit your goals, not the other way around."
+        },
+        {
+          "title": "End-to-End Support, Built to Scale",
+          "text": "We handle the full spectrum of your operations, not just one piece of it. From outsourced sales to customer support, and lead generation to lead qualification, we manage every stage of the process under one roof. As your business grows, we scale with you."
+        },
+        {
+          "title": "Round the Clock, Global Coverage",
+          "text": "With flexible shift coverage, we operate 24/7 and adapt to your customers' time zones wherever they are. That means your business never really \"closes,\" and your customers get support exactly when they need it."
+        },
+        {
+          "title": "Security You Can Trust",
+          "text": "Your customers' data is your responsibility, which means it's ours too. Every call, every record, every interaction is handled under strict data protection protocols, from consent management to secure system access. We treat compliance as a standard to uphold, not a box to check."
+        },
+        {
+          "title": "Fast to Launch",
+          "text": "Great outsourcing shouldn't mean a long wait to get started. From discovery to a fully trained, live team, most partnerships are up and running in a matter of weeks, not months. So you start seeing results while other vendors are still onboarding."
+        },
+        {
+          "title": "Quality You Can Rely On",
+          "text": "Hiring the right talent is just the beginning; we back it up with ongoing quality assurance. Through regular call monitoring, performance tracking, and continuous coaching, we make sure every agent keeps improving and every client keeps getting consistent, high-quality service."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "title": "Reviews",
+      "builtIn": true,
+      "paragraphs": [
+        {
+          "title": "",
+          "text": "Hear from the brands that trust IGREK to deliver standout customer experiences."
+        }
+      ]
+    }
+  ],
+  "cards": {
+    "benefits": [
+      {
+        "title": "Always-on support",
+        "text": "Seamless, responsive customer care around the clock—wherever your customers are."
+      },
+      {
+        "title": "Exceptional talent",
+        "text": "Highly trained agents who sound like your brand, understand your world, and own every outcome."
+      },
+      {
+        "title": "One connected service",
+        "text": "Voice, chat, email, and social managed in one intelligent, effortlessly consistent experience."
+      }
+    ],
+    "reviews": [
+      {
+        "quote": "“IGREK feels less like an outsourced team and more like an extension of our own. Our customer satisfaction numbers prove it.”",
+        "name": "Alex Morgan",
+        "role": "VP Operations, Novelle"
+      },
+      {
+        "quote": "“They brought a level of process, care, and agility that transformed how our customers experience our brand.”",
+        "name": "Jordan Smith",
+        "role": "Customer Director, Vela"
+      },
+      {
+        "quote": "“From day one, the IGREK team has been proactive, sharp, and completely invested in our growth.”",
+        "name": "Riley Kim",
+        "role": "Founder, Northstar"
+      }
+    ]
+  },
+  "apply": {
+    "eyebrow": "Let’s make it happen",
+    "heading": "Ready for better conversations?",
+    "description": "Tell us what you need. We’ll be in touch within one business day.",
+    "email": "hello@igrekoutsourcing.com",
+    "button": "Submit application",
+    "nameLabel": "Full Name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone Number",
+    "vocarooLabel": "Vocaroo Link",
+    "experienceLabel": "Experience In Call Center",
+    "lastPositionLabel": "Last Position",
+    "vocarooHelp": "Record your voice intro on Vocaroo, then paste your link here.",
+    "experienceOptions": [
+      "No Experience",
+      "Less Than 1 Year",
+      "1-3 Years",
+      "3-5 Years"
+    ]
+  }
+}
