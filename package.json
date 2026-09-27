@@ -1,0 +1,13 @@
+{
+  "name": "igrek",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IGREK – simple job‑application web app",
+  "main": "local-server.js",
+  "scripts": {
+    "start": "node local-server.js"
+  },
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

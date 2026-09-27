@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+Dockerfile
+README.md
+*.md
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.DS_Store
+*.zip
