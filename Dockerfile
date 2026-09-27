@@ -12,7 +12,7 @@ COPY package.json package-lock.json* ./
 
 # Install **only** production dependencies (none at the moment,
 # but the command is ready for future packages).
-RUN npm ci --only=production
+RUN npm install --production
 
 # ------------------------------------------------------------
 #  Stage 2 – Runtime (copy compiled files, set env, run)
